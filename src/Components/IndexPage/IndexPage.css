@@ -1,0 +1,40 @@
+.indexMainContainer{
+  text-align: left;
+}
+
+.indexMainTitle{
+  margin: 2rem;
+  font-size: 5rem;
+  color: #5E5E5E;
+  font-weight: 500;
+  border-bottom: solid 5px #5E5E5E;
+  padding: 1rem 0;
+}
+
+.indexMainColumns{
+  align-self: center;
+}
+
+.indexMainRow{
+  padding: 5rem 0;
+  border-bottom: 2px outset;
+}
+
+.indexMainRow:nth-child(4){
+  border: none;
+}
+
+.row div img{
+  max-width: 100%;
+}
+
+@media screen and (max-width: 769px){
+  .indexMainTitle{
+    text-align: center;
+    font-size: 4rem;
+  }
+
+  .indexMainColumns, .indexMainDescription {
+    text-align: center;
+  }
+}

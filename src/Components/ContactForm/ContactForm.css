@@ -1,0 +1,22 @@
+.contactFormContainer{
+  background: rgb(58,167,180);
+  background: linear-gradient(145deg, rgba(58,167,180,0.44861694677871145) 0%, rgba(61,211,214,0.3757878151260504) 31%, rgba(0,255,184,0.3393732492997199) 66%);
+}
+
+form{
+  margin: 5rem auto;
+  background-color: #BBE2F2;
+  padding: 3rem;
+  width: 70%;
+  border-radius: 1rem;
+}
+
+.contactFormInput, .contactFormButton{
+  width: 50%;
+  height: 5rem;
+  text-align: center;
+}
+
+textarea{
+  width: 100%;
+}

@@ -1,0 +1,41 @@
+.getStartedMainContainer{
+  text-align: left;
+}
+
+.getStartedMainRow{
+  padding: 5rem 0;
+  border-bottom: 2px outset;
+}
+
+.getStartedMainRow:nth-child(4){
+  border: none;
+}
+
+.getStartedMainRow div p{
+  padding: 2rem 0 0 2rem;
+}
+
+.innerGetStartedDiv{
+  border-left: 2px outset;
+  margin-left: 6px;
+}
+
+.getStartedCompensantionTitle{
+  margin-bottom: 2rem;
+  padding-right: 3rem;
+}
+
+.getStartedCompensantionTitle{
+  color: green;
+  font-weight: 500;
+  font-size: 3rem;
+}
+
+.getStartedMainRow div div button{
+  background-color: grey;
+  border-color: grey;
+}
+
+.getStartedMainRow div div button:hover{
+  background-color: green;
+}

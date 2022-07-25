@@ -1,0 +1,35 @@
+.projectPageColText{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  height: 30rem;
+  background-color: #34D5E0;
+}
+
+.projectsPageText{
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  max-width: 70%;
+  text-decoration: none;
+}
+
+.projectsRow{
+  margin: 5rem;
+  border: solid 1px lightgrey;
+}
+
+.projectsRow:hover{
+  filter: brightness(1.1);
+  transition: 1s;
+  //transform: scale(1.01);
+}
+
+.projectPageColImage{
+  display: flex;
+}
+
+.projectPageColImage img{
+  object-fit: fit;
+}

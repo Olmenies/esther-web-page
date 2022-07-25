@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 import {BrowserRouter, Routes, Route, Navigate} from 'react-router-dom';
@@ -6,6 +5,7 @@ import {BrowserRouter, Routes, Route, Navigate} from 'react-router-dom';
 import Navbar from './Components/Navbar/Navbar';
 import IndexPage from './Components/IndexPage/IndexPage';
 import GetStartedPage from './Components/GetStartedPage/GetStartedPage';
+import ProjectsPage from './Components/ProjectsPage/ProjectsPage';
 import Footer from './Components/Footer/Footer';
 
 function App() {
@@ -19,6 +19,7 @@ function App() {
           <Routes>
             <Route path='/' element={<IndexPage/>}/>
             <Route path='/getStartedPage' element={<GetStartedPage/>}/>
+            <Route path='/projectsPage' element={<ProjectsPage/>}/>
             <Route path='*' element={<Navigate to='/'/>}/>
           </Routes>
         </main>

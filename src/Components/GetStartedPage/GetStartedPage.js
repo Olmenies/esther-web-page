@@ -2,7 +2,14 @@ import './GetStartedPage.css';
 
 import ContactForm from '../ContactForm/ContactForm';
 
+import {useEffect} from 'react';
+
 const GetStartedPage = () => {
+
+  useEffect(() => {
+    window.scrollTo(0,0);
+  },[]);
+
   return(
     <div>
       <div className='container'>

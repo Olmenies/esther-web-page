@@ -32,11 +32,10 @@
 }
 
 .getStartedMainRow div div button{
-  background-color: grey;
-  border-color: grey;
+  color: black;
+  background-color: rgba(0,255,184,0.66);
+  border-color: rgba(0,255,184,0.66);
   padding: 1rem;
-}
-
-.getStartedMainRow div div button:hover{
-  background-color: green;
+  filter: brightness(0.9);
+  transition: 1s;
 }

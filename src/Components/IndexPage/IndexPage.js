@@ -3,7 +3,14 @@ import './IndexPage.css';
 import Carousel from '../Carousel/Carousel';
 import ContactForm from '../ContactForm/ContactForm';
 
+import {useEffect} from 'react';
+
 const IndexPage = () => {
+
+  useEffect(() => {
+    window.scrollTo(0,0);
+  },[]);
+
   return(
     <div>
       <Carousel/>

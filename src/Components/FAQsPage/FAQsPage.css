@@ -1,0 +1,31 @@
+.accordion div{
+  border: 0;
+  padding: 2rem;
+}
+
+.accordion-header{
+  display: flex;
+  justify-content: center;
+}
+
+.accordion-button{
+  color: #259E77 !important;
+  font-size: 25px !important;
+  font-weight: bold !important;
+  border-bottom: 2px solid grey !important;
+  padding-bottom: 2rem !important;
+}
+
+.accordion-button:not(.collapsed){
+  background-color: inherit;
+}
+
+.accordion-body{
+  color: #5E5E5E;
+  text-align: left;
+}
+
+.FAQsPageHeader{
+  font-size: 60px;
+  color: #259E77;
+}

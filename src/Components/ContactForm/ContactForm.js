@@ -7,7 +7,7 @@ const ContactForm = () => {
         <div className='col-md-12'>
           <form encType="text/plain" action="#" method="GET">
             <fieldset>
-              <legend>Rellena el formulario y te contactaremos</legend>
+              <legend>Contactanos</legend>
               <input className='contactFormInput' type="text" name="user-info" id="name" placeholder="Nombre"/>
               <input className='contactFormInput' type="text" name="user-info" id="surname" placeholder="Apellido"/>
               <br/>

@@ -25,12 +25,12 @@ const Navbar = () => {
               <NavLink className='nav-link' to='/compensatorsPage'>Compensadores</NavLink>
             </li>
             <li className='nav-item'>
-              <NavLink className='nav-link' to='/footprintCalculator'>¡Calculá tu huella!</NavLink>
+              <NavLink className='nav-link' to='/footprintCalculator'><button className='btn btn-primary' onClick={() => console.log('hola')} >¡Calculá tu huella!</button></NavLink>
             </li>
             <li className='nav-item dropdown'>
               <NavLink className='nav-link dropdown-toggle' id='navbarDropdownMenuLink' role='button' data-bs-toggle='dropdown' aria-expanded='false' to='/'>Más</NavLink>
               <ul className='dropdown-menu' aria-labelledby='navbarDropdownMenuLink'>
-                <li><a className='dropdown-item' href='/'>FAQs</a></li>
+                <li><a className='dropdown-item' href='/FAQsPage'>FAQs</a></li>
                 <li><a className='dropdown-item' href='/'>Another action</a></li>
                 <li><a className='dropdown-item' href='/'>Something else here</a></li>
               </ul>

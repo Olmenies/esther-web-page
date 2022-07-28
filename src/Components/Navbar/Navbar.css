@@ -8,3 +8,15 @@ header{
   z-index: 100;
   box-shadow: 2px 5px 10px 2px grey;
 }
+
+.navbar-nav{
+  align-items: center;
+}
+
+.nav-link button{
+  color: black;
+  background-color: rgba(0,255,184,0.66);
+  border-color: rgba(0,255,184,0.66);
+  filter: brightness(0.9);
+  transition: 1s;
+}

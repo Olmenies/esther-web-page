@@ -3,7 +3,14 @@
 import './ProjectsPage.css';
 import pdf from '../../Data/Profile.pdf';
 
+import {useEffect} from 'react';
+
 const ProjectsPage = () => {
+
+  useEffect(() => {
+    window.scrollTo(0,0);
+  },[]);
+
   return(
     <div>
       <div className="container-fluid">
